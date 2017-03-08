@@ -7,9 +7,10 @@
     "test": "test"
   },
   "scripts": {
+    "prestart": "npm install",
     "test": "karma start test/karma.conf.js",
     "postinstall": "bower install",
-    "run": "http-server"
+    "start": "http-server . -a localhost -p 8080 -c-1"
   },
   "author": "Dominic Jahangier",
   "license": "ISC"

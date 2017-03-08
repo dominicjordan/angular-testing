@@ -1,1 +1,0 @@
-var studentenApp = angular.module("studentenApp", []);
